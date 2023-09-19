@@ -41,12 +41,12 @@ __Create a virtual environment (Optional):__
 1. To run scrape.py, use:
 -  `python scrape.py`
 
-_This script scrapes product titles and prices from Amazon search results and saves the data to an Excel file named amazon_products.xlsx._
+_This script scrapes product titles and prices from Amazon search results and saves the data to an Excel file named products.xlsx._
 
 2. To run brand.py, use:
 - `python brand.py`
 
-_This script extends the functionality by scraping brand information and adding it to the existing Excel file (amazon_products_with_brand.xlsx)._
+_This script extends the functionality by scraping brand information and adding it to the existing Excel file (final.xlsx)._
 
 ## Deactivate the virtual environment when you're done:
 - `deactivate`
