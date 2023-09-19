@@ -19,18 +19,20 @@ Before running the scripts, ensure you have the following prerequisites:
 - Python 3.x (Python 3.3 or later is recommended)
 - `virtualenv` (optional but recommended for managing dependencies)
 
-## (Optional) Create a virtual environment:
+__Create a virtual environment (Optional):__
 - `python -m venv venv`
 
 - Activate the virtual environment:
-  On Windows:
+
+   __On Windows:__
   `venv\Scripts\activate`
 
-  On macOS and Linux:
+  __On macOS and Linux:__
   `source venv/bin/activate`
 
 ## Install project dependencies:
 - `pip install requests beautifulsoup4 openpyxl pandas`
+
 -  Or to install the dependencies from the requirements.txt file, you can use the following command:
  `pip install -r requirements.txt`
 
@@ -39,12 +41,12 @@ Before running the scripts, ensure you have the following prerequisites:
 1. To run scrape.py, use:
 -  `python scrape.py`
 
-This script scrapes product titles and prices from Amazon search results and saves the data to an Excel file named amazon_products.xlsx.
+_This script scrapes product titles and prices from Amazon search results and saves the data to an Excel file named amazon_products.xlsx._
 
 2. To run brand.py, use:
 - `python brand.py`
 
-This script extends the functionality by scraping brand information and adding it to the existing Excel file (amazon_products_with_brand.xlsx).
+_This script extends the functionality by scraping brand information and adding it to the existing Excel file (amazon_products_with_brand.xlsx)._
 
 ## Deactivate the virtual environment when you're done:
 - `deactivate`
