@@ -95,8 +95,8 @@ for idx in range(2, len(data_asins) + 2):
     worksheet.cell(row=idx, column=2, value=product_titles[idx - 2])
     worksheet.cell(row=idx, column=3, value=prices[idx - 2])
 
-workbook.save('amazon_products.xlsx')
+workbook.save('products.xlsx')
 
 workbook.close()
 
-print("Data has been successfully saved to amazon_products.xlsx")
+print("Data has been successfully saved to products.xlsx")
