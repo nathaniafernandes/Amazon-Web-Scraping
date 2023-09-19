@@ -31,8 +31,8 @@ Before running the scripts, ensure you have the following prerequisites:
 
 ## Install project dependencies:
 - `pip install requests beautifulsoup4 openpyxl pandas`
-  Or to install the dependencies from the requirements.txt file, you can use the following command:
-- `pip install -r requirements.txt`
+-  Or to install the dependencies from the requirements.txt file, you can use the following command:
+ `pip install -r requirements.txt`
 
 ## Run the scripts as needed:
 
