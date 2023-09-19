@@ -37,7 +37,7 @@ def send_request(url):
     time.sleep(random.uniform(0.5, 3))  # Add a random delay between 0.5 seconds to 3 second 
     return response
 
-df = pd.read_excel('amazon_products.xlsx')
+df = pd.read_excel('products.xlsx')
 
 url_template = 'https://www.amazon.in/gp/product/{}/?th=1'
 
@@ -75,6 +75,7 @@ for asin in df['Data-ASIN']:
 df['Brand'] = brand_list
 
 # Save the updated DataFrame to the Excel file
-df.to_excel('amazon_products_with_brand.xlsx', index=False)
+df.to_excel('final.xlsx', index=False)
 
-print("Brand information has been successfully added and saved to amazon_products_with_brand.xlsx")
+print("Brand information has been successfully added and saved to final.xlsx")
+
