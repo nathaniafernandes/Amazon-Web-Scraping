@@ -40,6 +40,7 @@ __Create a virtual environment (Optional):__
 
 1. To run scrape.py, use:
 -  `python scrape.py`
+-  Input your URL via the console.
 
 _This script scrapes product titles and prices from Amazon search results and saves the data to an Excel file named products.xlsx._
 
