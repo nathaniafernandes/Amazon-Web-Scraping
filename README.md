@@ -47,7 +47,7 @@ _This script scrapes product titles and prices from Amazon search results and sa
 2. To run brand.py, use:
 - `python brand.py`
 
-_This script extends the functionality by scraping brand information and adding it to the existing Excel file (final.xlsx)._
+_This script extends the functionality by scraping brand information and adding it to an Excel file named final.xlsx._
 
 ## Deactivate the virtual environment when you're done:
 - `deactivate`
